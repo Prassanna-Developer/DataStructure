@@ -1,6 +1,12 @@
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+/**
+00-44  48 5555 8361 should convert to 004-448-555-583-61
 
+0 - 22 1985--324 should convert to 022-198-53-24
+
+555372654 should convert to 555-372-654
+*/
 public class RegexSolution {
 
 	public static void main(String[] args) {
